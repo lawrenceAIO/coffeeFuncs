@@ -1,0 +1,2 @@
+alias lsfs="coffee listFormatting \"'\""
+alias lsfd="coffee listFormatting '\"'"
