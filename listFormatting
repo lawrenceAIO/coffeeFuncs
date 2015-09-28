@@ -1,0 +1,7 @@
+addFormatting = (list, sign) -> 
+  a=[]
+  for word in list
+    a.push(sign+word+sign)
+  console.log("("+a.join()+")")
+
+addFormatting(process.argv.slice(3),process.argv[2])
